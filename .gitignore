@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local runtime data (cache + downloaded library)
+.pixabay-plugin/
+
+# OS
+.DS_Store

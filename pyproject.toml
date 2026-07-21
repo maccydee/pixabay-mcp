@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixabay-mcp"
+version = "1.0.0"
+description = "Token-lean MCP server for the Pixabay image & video API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2.0"]
+
+[project.scripts]
+pixabay-mcp = "pixabay.server:main"
+
+[tool.setuptools]
+packages = ["pixabay"]
