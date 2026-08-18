@@ -1,5 +1,9 @@
 # Pixabay MCP
 
+[![MCP](https://img.shields.io/badge/MCP-server-8A2BE2.svg)](https://modelcontextprotocol.io)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A token-lean [MCP](https://modelcontextprotocol.io) server for the Pixabay
 image & video API. Search returns compact results; a 24-hour disk cache makes
 pagination and detail lookups nearly free; downloads are stored server-side so
