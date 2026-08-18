@@ -8,6 +8,8 @@ version = "1.0.0"
 description = "Token-lean MCP server for the Pixabay image & video API"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = ["mcp>=1.2.0"]
 
 [project.scripts]

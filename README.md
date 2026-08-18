@@ -125,3 +125,7 @@ pixabay-mcp/
 ```
 
 Zero external dependencies except the `mcp` SDK; the core is pure standard library.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
